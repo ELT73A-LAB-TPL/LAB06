@@ -1,4 +1,4 @@
-# LAB05 template for ELT73A course 
+# LAB06 template for ELT73A course 
 ## Git commands
 How to config git
 ```bash
@@ -15,7 +15,7 @@ git config list --show-origin
 ```
 How to commit updates
 ```bash
-cd LAB05
+cd LAB06
 git status
 git add .
 git commit -m "My message for this commit!"
@@ -24,17 +24,8 @@ git log
 ```
 
 ## LAB steps
-Generate code from last LAB
-```bash
-LoadMX TIM2EXTI0 TIM2EXTI0.txt Y
-```
 
-Generate code with ADC1
-```bash
-LoadMX TIM2EXTI0ADC1 TIM2EXTI0ADC1.txt Y
-```
-
-Generate code with ADC1 and PWM
+Generate code with EXTI0, ADC1 and PWM
 ```bash
 LoadMX TIM2EXTI0ADC1PWM TIM2EXTI0ADC1PWM.txt Y
 ```
